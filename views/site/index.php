@@ -18,7 +18,7 @@ echo GridView::widget([
     'showFooter'=> true,
     'tableOptions' => ['id' => 'products','class' => 'table table-striped table-bordered'],
     'columns'=>[
-        ['class' => 'yii\grid\SerialColumn'],
+        // ['class' => 'yii\grid\SerialColumn'],
         ['class' => 'yii\grid\CheckboxColumn','footer'=>'<button type="submit" class="btn btn-info">Удалить</button>'],
         'image:image',
         'sku',
